@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de mensajería</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 80px;
+        }
+        .formulario{
+            margin: 0 auto;
+            display: block;
+            font-family: sans-serif;
+        }
+
+        .contend{
+            display:flex;
+            align-items:center;
+        }
+        h1{
+            font-family: serif;
+            color: #377ba8;
+            background-color: lightgrey;
+        }
+        #registro{
+            text-align: center;
+            min-width: 200px;
+            
+        }
+        
+        
+
+
+    </style>
+</head>
+<body>
+   
+
+    <div class="contend"> 
+    <form method="GET" action="" class="formulario">
+        <h1>Registrate</h1>
+        <input type="image" src="img/mensajes.png" width="300"
+        height="150"><br/>
+        <labe for="nombre">Nombre*</labe><br/>
+        <input type = "text" name = "nombre"/><br/><br/>
+        <label form="apellido">Apellido</label><br/>
+        <input type = "text" name = "apellido"/><br/><br/>
+        <label form="correo">Correo*</label><br/>
+        <input type = "text" name = "correo"/><br/><br/>
+        <label form="contrasena">Contraseña*</label><br/>
+        <input type = "password" name = "contrasena"/><br/><br/>
+        <label form = "sexo">Sexo</label><br/>
+        <input type = "radio" name = "sexo" value = "Masculino"/>Masculino 
+        <input type = "radio" name = "sexo" value = "Femenino"/>Femenino <br/><br>
+        <input type="submit" value="Registrarse" id="registro"/>
+        
+    </form>
+    </div>
+</body>
+</html>
